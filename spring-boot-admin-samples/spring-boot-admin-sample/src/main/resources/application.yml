@@ -1,0 +1,18 @@
+info:
+  scm-url: @scm.url@
+  stage: test
+
+logging:
+  file: target/boot-admin-sample.log
+
+spring:
+  application:
+    name: @pom.artifactId@
+
+# tag::configuration-sba-client[]
+spring.boot.admin.url: http://localhost:8080
+# end::configuration-sba-client[]
+
+endpoints:
+  health:
+    sensitive: false
