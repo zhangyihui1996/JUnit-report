@@ -68,6 +68,7 @@
         </developer>
     </developers>
     <build>
+        <defaultGoal>compile</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -137,6 +138,7 @@
                 </property>
             </activation>
             <build>
+                <defaultGoal>compile</defaultGoal>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
